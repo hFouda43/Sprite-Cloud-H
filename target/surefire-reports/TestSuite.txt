@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.852 s <<< FAILURE! - in TestSuite
-overlappedElementPageTest(uiplayground.tests.UiTestingPlaygroundTests)  Time elapsed: 0.353 s  <<< FAILURE!
-org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
-  (Session info: headless chrome=108.0.5359.124)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1030-azure', java.version: '11.0.17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [47b4834c0539b66eef56ca6f8b70dd72, sendKeysToElement {id=d8d91a0e-a332-4cce-90ee-6d397c3f45e3, value=[Ljava.lang.CharSequence;@1ad1f167}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.8yjIrc}, goog:chromeOptions: {debuggerAddress: localhost:41645}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:41645/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on LINUX (47b4834c0539b66eef56ca6f8b70dd72)] -> css selector: div.container:nth-child(1)>div>div:nth-child(1)]
-Session ID: 47b4834c0539b66eef56ca6f8b70dd72
-	at uiplayground.tests.UiTestingPlaygroundTests.overlappedElementPageTest(UiTestingPlaygroundTests.java:42)
-
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.111 s - in TestSuite
