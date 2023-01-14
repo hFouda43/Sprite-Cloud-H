@@ -2,8 +2,8 @@
 ***
 ## General Info
 An UI and API automation ptoject for the following environments:
-○ http://www.uitestingplayground.com/
-○ https://petstore.swagger.io/
+* http://www.uitestingplayground.com/
+* https://petstore.swagger.io/
 
 ## Used Languages and Tools
 ***
@@ -22,10 +22,10 @@ A list of technologies used within the project:
 * git
 > Steps to run:
 * Clone the repo
-  ** git clone https://github.com/hFouda43/Sprite-Cloud-H.git
-  ** cd Sprite-Cloud-H
+  * git clone https://github.com/hFouda43/Sprite-Cloud-H.git
+  * cd Sprite-Cloud-H
 * Run the tests using mvn
-  ** mvn package -B --file pom.xml
+  * mvn package -B --file pom.xml
 #### Running the tests in a CI/CD environment:
 > Go to Actions.
 > From the Workflows: Open "".
@@ -38,10 +38,10 @@ A list of technologies used within the project:
 ## Calliope platform Enhancements and features
 ***
 > Improvement point:
-It would be better if we can tell the user what are the expected formats for each fomatter type
+* It would be better if we can tell the user what are the expected formats for each fomatter type
 > Feature:
-Support of other formats like html files
-Sending a mail with failure notification when user attempts to import a file via API call and request fails
+* Support of other formats like html files
+* Sending a mail with failure notification when user attempts to import a file via API call and request fails
 ## Test cases Selection approach:
 ***
 > Test cases that are more likely to be used by end users
