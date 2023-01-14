@@ -43,8 +43,8 @@ jobs:
       run: |
          git config user.email "hendfouda@gmail.com"
          git config user.name "hFouda43"
-         git add target
-         git commit -m "adding newly generated reports results"
+         git add target testresults/api/logs testresults/reports
+         git commit -m "adding newly generated reports/logs from CI"
          git push -u origin master
       shell: bash
       
