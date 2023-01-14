@@ -2,111 +2,58 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2023-01-14T21:08:11 EET" name="Surefire suite" finished-at="2023-01-14T21:08:51 EET" duration-ms="39559">
+  <suite started-at="2023-01-14T19:46:21 UTC" name="Surefire suite" finished-at="2023-01-14T19:46:28 UTC" duration-ms="7554">
     <groups>
     </groups>
-    <test started-at="2023-01-14T21:08:11 EET" name="Surefire test" finished-at="2023-01-14T21:08:51 EET" duration-ms="39559">
+    <test started-at="2023-01-14T19:46:21 UTC" name="Surefire test" finished-at="2023-01-14T19:46:28 UTC" duration-ms="7554">
       <class name="uiplayground.tests.UiTestingPlaygroundTests">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@760cf594]" started-at="2023-01-14T21:08:23 EET" name="initializeDriver" finished-at="2023-01-14T21:08:23 EET" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@1f3165e7]" started-at="2023-01-14T19:46:25 UTC" name="initializeDriver" finished-at="2023-01-14T19:46:25 UTC" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="dynamicIdPageTest()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@760cf594]" started-at="2023-01-14T21:08:23 EET" name="dynamicIdPageTest" finished-at="2023-01-14T21:08:47 EET" duration-ms="23612" status="PASS">
+        <test-method signature="dynamicIdPageTest()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@1f3165e7]" started-at="2023-01-14T19:46:25 UTC" name="dynamicIdPageTest" finished-at="2023-01-14T19:46:26 UTC" duration-ms="1133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dynamicIdPageTest -->
-        <test-method signature="dynamicTablePageTest()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@760cf594]" started-at="2023-01-14T21:08:47 EET" name="dynamicTablePageTest" finished-at="2023-01-14T21:08:49 EET" duration-ms="1660" status="PASS">
+        <test-method signature="dynamicTablePageTest()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@1f3165e7]" started-at="2023-01-14T19:46:26 UTC" name="dynamicTablePageTest" finished-at="2023-01-14T19:46:27 UTC" duration-ms="774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dynamicTablePageTest -->
-        <test-method signature="overlappedElementPageTest()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@760cf594]" started-at="2023-01-14T21:08:49 EET" name="overlappedElementPageTest" finished-at="2023-01-14T21:08:50 EET" duration-ms="1027" status="PASS">
+        <test-method signature="overlappedElementPageTest()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@1f3165e7]" started-at="2023-01-14T19:46:27 UTC" name="overlappedElementPageTest" finished-at="2023-01-14T19:46:28 UTC" duration-ms="460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- overlappedElementPageTest -->
-        <test-method signature="sampleAppPageTest()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@760cf594]" started-at="2023-01-14T21:08:50 EET" name="sampleAppPageTest" finished-at="2023-01-14T21:08:51 EET" duration-ms="1188" status="PASS">
+        <test-method signature="sampleAppPageTest()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@1f3165e7]" started-at="2023-01-14T19:46:28 UTC" name="sampleAppPageTest" finished-at="2023-01-14T19:46:28 UTC" duration-ms="564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleAppPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@760cf594]" started-at="2023-01-14T21:08:51 EET" name="tearDown" finished-at="2023-01-14T21:08:51 EET" duration-ms="34" status="PASS">
-=======
-  <suite started-at="2023-01-14T19:44:30 UTC" name="Surefire suite" finished-at="2023-01-14T19:44:37 UTC" duration-ms="7017">
-    <groups>
-    </groups>
-    <test started-at="2023-01-14T19:44:30 UTC" name="Surefire test" finished-at="2023-01-14T19:44:37 UTC" duration-ms="7017">
-      <class name="uiplayground.tests.UiTestingPlaygroundTests">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@1d5d5621]" started-at="2023-01-14T19:44:34 UTC" name="initializeDriver" finished-at="2023-01-14T19:44:34 UTC" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method signature="dynamicIdPageTest()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@1d5d5621]" started-at="2023-01-14T19:44:34 UTC" name="dynamicIdPageTest" finished-at="2023-01-14T19:44:36 UTC" duration-ms="1322" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dynamicIdPageTest -->
-        <test-method signature="dynamicTablePageTest()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@1d5d5621]" started-at="2023-01-14T19:44:36 UTC" name="dynamicTablePageTest" finished-at="2023-01-14T19:44:36 UTC" duration-ms="579" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dynamicTablePageTest -->
-        <test-method signature="overlappedElementPageTest()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@1d5d5621]" started-at="2023-01-14T19:44:36 UTC" name="overlappedElementPageTest" finished-at="2023-01-14T19:44:37 UTC" duration-ms="523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- overlappedElementPageTest -->
-        <test-method signature="sampleAppPageTest()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@1d5d5621]" started-at="2023-01-14T19:44:37 UTC" name="sampleAppPageTest" finished-at="2023-01-14T19:44:37 UTC" duration-ms="462" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sampleAppPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@1d5d5621]" started-at="2023-01-14T19:44:37 UTC" name="tearDown" finished-at="2023-01-14T19:44:37 UTC" duration-ms="64" status="PASS">
->>>>>>> f77944202720906ed3aed2dfc7572223608dcae3
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:uiplayground.tests.UiTestingPlaygroundTests@1f3165e7]" started-at="2023-01-14T19:46:28 UTC" name="tearDown" finished-at="2023-01-14T19:46:28 UTC" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- uiplayground.tests.UiTestingPlaygroundTests -->
       <class name="org.spritecloud.petstoreapi.tests.PetApiTests">
-<<<<<<< HEAD
-        <test-method signature="addPetTest()[pri:1, instance:org.spritecloud.petstoreapi.tests.PetApiTests@29e495ff]" started-at="2023-01-14T21:08:11 EET" name="addPetTest" finished-at="2023-01-14T21:08:16 EET" duration-ms="4787" status="PASS">
+        <test-method signature="addPetTest()[pri:1, instance:org.spritecloud.petstoreapi.tests.PetApiTests@fd07cbb]" started-at="2023-01-14T19:46:21 UTC" name="addPetTest" finished-at="2023-01-14T19:46:23 UTC" duration-ms="2067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addPetTest -->
-        <test-method signature="getPetTest()[pri:2, instance:org.spritecloud.petstoreapi.tests.PetApiTests@29e495ff]" started-at="2023-01-14T21:08:16 EET" name="getPetTest" finished-at="2023-01-14T21:08:17 EET" duration-ms="935" status="PASS">
+        <test-method signature="getPetTest()[pri:2, instance:org.spritecloud.petstoreapi.tests.PetApiTests@fd07cbb]" started-at="2023-01-14T19:46:23 UTC" name="getPetTest" finished-at="2023-01-14T19:46:23 UTC" duration-ms="392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPetTest -->
-        <test-method signature="updatePetTest()[pri:3, instance:org.spritecloud.petstoreapi.tests.PetApiTests@29e495ff]" started-at="2023-01-14T21:08:17 EET" name="updatePetTest" finished-at="2023-01-14T21:08:20 EET" duration-ms="2788" status="PASS">
+        <test-method signature="updatePetTest()[pri:3, instance:org.spritecloud.petstoreapi.tests.PetApiTests@fd07cbb]" started-at="2023-01-14T19:46:23 UTC" name="updatePetTest" finished-at="2023-01-14T19:46:24 UTC" duration-ms="973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatePetTest -->
-        <test-method signature="getUpdatedPetTest()[pri:4, instance:org.spritecloud.petstoreapi.tests.PetApiTests@29e495ff]" started-at="2023-01-14T21:08:20 EET" name="getUpdatedPetTest" finished-at="2023-01-14T21:08:21 EET" duration-ms="1457" status="PASS">
+        <test-method signature="getUpdatedPetTest()[pri:4, instance:org.spritecloud.petstoreapi.tests.PetApiTests@fd07cbb]" started-at="2023-01-14T19:46:24 UTC" name="getUpdatedPetTest" finished-at="2023-01-14T19:46:25 UTC" duration-ms="352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUpdatedPetTest -->
-        <test-method signature="deletePetTest()[pri:5, instance:org.spritecloud.petstoreapi.tests.PetApiTests@29e495ff]" started-at="2023-01-14T21:08:21 EET" name="deletePetTest" finished-at="2023-01-14T21:08:22 EET" duration-ms="1037" status="PASS">
+        <test-method signature="deletePetTest()[pri:5, instance:org.spritecloud.petstoreapi.tests.PetApiTests@fd07cbb]" started-at="2023-01-14T19:46:25 UTC" name="deletePetTest" finished-at="2023-01-14T19:46:25 UTC" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePetTest -->
-        <test-method signature="deleteDeletedPetTest()[pri:6, instance:org.spritecloud.petstoreapi.tests.PetApiTests@29e495ff]" started-at="2023-01-14T21:08:22 EET" name="deleteDeletedPetTest" finished-at="2023-01-14T21:08:23 EET" duration-ms="902" status="PASS">
-=======
-        <test-method signature="addPetTest()[pri:1, instance:org.spritecloud.petstoreapi.tests.PetApiTests@3e96bacf]" started-at="2023-01-14T19:44:30 UTC" name="addPetTest" finished-at="2023-01-14T19:44:32 UTC" duration-ms="2057" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addPetTest -->
-        <test-method signature="getPetTest()[pri:2, instance:org.spritecloud.petstoreapi.tests.PetApiTests@3e96bacf]" started-at="2023-01-14T19:44:32 UTC" name="getPetTest" finished-at="2023-01-14T19:44:33 UTC" duration-ms="308" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPetTest -->
-        <test-method signature="updatePetTest()[pri:3, instance:org.spritecloud.petstoreapi.tests.PetApiTests@3e96bacf]" started-at="2023-01-14T19:44:33 UTC" name="updatePetTest" finished-at="2023-01-14T19:44:33 UTC" duration-ms="821" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updatePetTest -->
-        <test-method signature="getUpdatedPetTest()[pri:4, instance:org.spritecloud.petstoreapi.tests.PetApiTests@3e96bacf]" started-at="2023-01-14T19:44:33 UTC" name="getUpdatedPetTest" finished-at="2023-01-14T19:44:34 UTC" duration-ms="250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUpdatedPetTest -->
-        <test-method signature="deletePetTest()[pri:5, instance:org.spritecloud.petstoreapi.tests.PetApiTests@3e96bacf]" started-at="2023-01-14T19:44:34 UTC" name="deletePetTest" finished-at="2023-01-14T19:44:34 UTC" duration-ms="351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deletePetTest -->
-        <test-method signature="deleteDeletedPetTest()[pri:6, instance:org.spritecloud.petstoreapi.tests.PetApiTests@3e96bacf]" started-at="2023-01-14T19:44:34 UTC" name="deleteDeletedPetTest" finished-at="2023-01-14T19:44:34 UTC" duration-ms="231" status="PASS">
->>>>>>> f77944202720906ed3aed2dfc7572223608dcae3
+        <test-method signature="deleteDeletedPetTest()[pri:6, instance:org.spritecloud.petstoreapi.tests.PetApiTests@fd07cbb]" started-at="2023-01-14T19:46:25 UTC" name="deleteDeletedPetTest" finished-at="2023-01-14T19:46:25 UTC" duration-ms="332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteDeletedPetTest -->
