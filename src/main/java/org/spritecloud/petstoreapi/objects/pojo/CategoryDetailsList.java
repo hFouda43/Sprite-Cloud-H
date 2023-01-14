@@ -1,7 +1,6 @@
 package org.spritecloud.petstoreapi.objects.pojo;
 
-public class CategoryDetailsList
-{
+public class CategoryDetailsList {
     private int id;
     private String name;
 
@@ -20,7 +19,4 @@ public class CategoryDetailsList
     public void setName(String name) {
         this.name = name;
     }
-
-
-
 }

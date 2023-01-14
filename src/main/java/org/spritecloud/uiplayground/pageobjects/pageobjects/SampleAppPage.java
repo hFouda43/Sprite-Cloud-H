@@ -7,34 +7,34 @@ import org.openqa.selenium.support.PageFactory;
 
 public class SampleAppPage {
     private WebDriver driver;
-    private @FindBy(name="UserName")
+    private @FindBy(name = "UserName")
     WebElement userName;
-    private @FindBy(name="Password")
+    private @FindBy(name = "Password")
     WebElement passWord;
-    private @FindBy(id="login")
+    private @FindBy(id = "login")
     WebElement loginBtn;
-    private @FindBy(id="loginstatus")
+    private @FindBy(id = "loginstatus")
     WebElement loginSuccessMessage;
 
 
     public SampleAppPage(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver,this);
+        PageFactory.initElements(driver, this);
     }
 
-    public void setUserName(String userNameInput){
+    public void setUserName(String userNameInput) {
         userName.sendKeys(userNameInput);
     }
 
-    public void setPassWord(String passWordInput){
+    public void setPassWord(String passWordInput) {
         passWord.sendKeys(passWordInput);
     }
 
-    public void login(){
+    public void login() {
         loginBtn.click();
     }
 
-    public String getLoginSuccessMessage(){
+    public String getLoginSuccessMessage() {
         return loginSuccessMessage.getText();
     }
 }

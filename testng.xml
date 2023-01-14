@@ -13,6 +13,14 @@
                     <include name="deleteDeletedPetTest"/>
                 </methods>
             </class>
+            <class name="uiplayground.tests.UiTestingPlaygroundTests">
+                <methods>
+                    <include name="dynamicTablePageTest"/>
+                    <include name="overlappedElementPageTest"/>
+                    <include name="sampleAppPageTest"/>
+                    <include name="dynamicIdPageTest"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

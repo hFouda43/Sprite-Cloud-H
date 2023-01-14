@@ -15,8 +15,9 @@ import java.util.Properties;
 public class Utils {
 
     public static RequestSpecification request;
+
     public RequestSpecification requestSpecification() throws IOException {
-        if(request==null) {
+        if (request == null) {
             PrintStream logFile = new PrintStream(new FileOutputStream("testresults/api/logs/logging.txt"));
             request = new RequestSpecBuilder().
                     setBaseUri(getGlobalValues("baseUrl")).
@@ -30,8 +31,8 @@ public class Utils {
 
 
     public static String getGlobalValues(String key) throws IOException {
-        Properties prop=new Properties();
-        FileInputStream fileInputStream=new FileInputStream("src/main/java/org/spritecloud/globalData.properties");
+        Properties prop = new Properties();
+        FileInputStream fileInputStream = new FileInputStream("src/main/java/org/spritecloud/globalData.properties");
         prop.load(fileInputStream);
         return prop.getProperty(key);
     }
