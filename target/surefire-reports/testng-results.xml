@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-14T17:07:03 EET" name="Surefire suite" finished-at="2023-01-14T17:07:15 EET" duration-ms="11400">
+  <suite started-at="2023-01-14T15:16:43 UTC" name="Surefire suite" finished-at="2023-01-14T15:16:47 UTC" duration-ms="4240">
     <groups>
     </groups>
-    <test started-at="2023-01-14T17:07:03 EET" name="Surefire test" finished-at="2023-01-14T17:07:15 EET" duration-ms="11400">
+    <test started-at="2023-01-14T15:16:43 UTC" name="Surefire test" finished-at="2023-01-14T15:16:47 UTC" duration-ms="4240">
       <class name="org.spritecloud.petstoreapi.tests.PetApiTests">
-        <test-method signature="addPetTest()[pri:1, instance:org.spritecloud.petstoreapi.tests.PetApiTests@3541cb24]" started-at="2023-01-14T17:07:04 EET" name="addPetTest" finished-at="2023-01-14T17:07:07 EET" duration-ms="3840" status="PASS">
+        <test-method signature="addPetTest()[pri:1, instance:org.spritecloud.petstoreapi.tests.PetApiTests@394df057]" started-at="2023-01-14T15:16:43 UTC" name="addPetTest" finished-at="2023-01-14T15:16:46 UTC" duration-ms="2374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addPetTest -->
-        <test-method signature="getPetTest()[pri:2, instance:org.spritecloud.petstoreapi.tests.PetApiTests@3541cb24]" started-at="2023-01-14T17:07:07 EET" name="getPetTest" finished-at="2023-01-14T17:07:10 EET" duration-ms="2403" status="PASS">
+        <test-method signature="getPetTest()[pri:2, instance:org.spritecloud.petstoreapi.tests.PetApiTests@394df057]" started-at="2023-01-14T15:16:46 UTC" name="getPetTest" finished-at="2023-01-14T15:16:46 UTC" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPetTest -->
-        <test-method signature="updatePetTest()[pri:3, instance:org.spritecloud.petstoreapi.tests.PetApiTests@3541cb24]" started-at="2023-01-14T17:07:10 EET" name="updatePetTest" finished-at="2023-01-14T17:07:12 EET" duration-ms="1697" status="PASS">
+        <test-method signature="updatePetTest()[pri:3, instance:org.spritecloud.petstoreapi.tests.PetApiTests@394df057]" started-at="2023-01-14T15:16:46 UTC" name="updatePetTest" finished-at="2023-01-14T15:16:47 UTC" duration-ms="728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatePetTest -->
-        <test-method signature="getUpdatedPetTest()[pri:4, instance:org.spritecloud.petstoreapi.tests.PetApiTests@3541cb24]" started-at="2023-01-14T17:07:12 EET" name="getUpdatedPetTest" finished-at="2023-01-14T17:07:13 EET" duration-ms="1020" status="PASS">
+        <test-method signature="getUpdatedPetTest()[pri:4, instance:org.spritecloud.petstoreapi.tests.PetApiTests@394df057]" started-at="2023-01-14T15:16:47 UTC" name="getUpdatedPetTest" finished-at="2023-01-14T15:16:47 UTC" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUpdatedPetTest -->
-        <test-method signature="deletePetTest()[pri:5, instance:org.spritecloud.petstoreapi.tests.PetApiTests@3541cb24]" started-at="2023-01-14T17:07:13 EET" name="deletePetTest" finished-at="2023-01-14T17:07:14 EET" duration-ms="1187" status="PASS">
+        <test-method signature="deletePetTest()[pri:5, instance:org.spritecloud.petstoreapi.tests.PetApiTests@394df057]" started-at="2023-01-14T15:16:47 UTC" name="deletePetTest" finished-at="2023-01-14T15:16:47 UTC" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePetTest -->
-        <test-method signature="deleteDeletedPetTest()[pri:6, instance:org.spritecloud.petstoreapi.tests.PetApiTests@3541cb24]" started-at="2023-01-14T17:07:14 EET" name="deleteDeletedPetTest" finished-at="2023-01-14T17:07:15 EET" duration-ms="1188" status="PASS">
+        <test-method signature="deleteDeletedPetTest()[pri:6, instance:org.spritecloud.petstoreapi.tests.PetApiTests@394df057]" started-at="2023-01-14T15:16:47 UTC" name="deleteDeletedPetTest" finished-at="2023-01-14T15:16:47 UTC" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteDeletedPetTest -->
