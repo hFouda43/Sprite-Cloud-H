@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-utilities\Listeners.class
-org\spritecloud\petstoreapi\testcomponents\Utils.class
-org\spritecloud\petstoreapi\tests\PetApiTests.class
-uiplayground\testcomponents\BaseTest.class
-uiplayground\tests\UiTestingPlaygroundTests.class
-=======
 uiplayground/testcomponents/BaseTest.class
 org/spritecloud/petstoreapi/tests/PetApiTests.class
 org/spritecloud/petstoreapi/testcomponents/Utils.class
 uiplayground/tests/UiTestingPlaygroundTests.class
->>>>>>> 7406abf707a071f1e33f52ba8ccb8345de9d50b9

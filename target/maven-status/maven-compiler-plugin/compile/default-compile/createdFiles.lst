@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-org\spritecloud\uiplayground\pageobjects\pageobjects\DynamicIdPage.class
-org\spritecloud\petstoreapi\objects\pojo\CategoryDetailsList.class
-org\spritecloud\petstoreapi\objects\pojo\Pet.class
-org\spritecloud\uiplayground\pageobjects\pageobjects\SampleAppPage.class
-org\spritecloud\reporting\ExtentReportsSC.class
-org\spritecloud\petstoreapi\objects\pojo\TagsDetailsList.class
-org\spritecloud\uiplayground\pageobjects\pageobjects\DynamicTablePage.class
-org\spritecloud\uiplayground\pageobjects\pageobjects\OverlappedElementPage.class
-org\spritecloud\petstoreapi\objects\resources\EndPoints.class
-org\spritecloud\petstoreapi\objects\resources\TestDataBuild.class
-org\spritecloud\uiplayground\pageobjects\pageobjects\HomePage.class
-=======
 org/spritecloud/uiplayground/pageobjects/pageobjects/HomePage.class
 org/spritecloud/uiplayground/pageobjects/pageobjects/DynamicTablePage.class
 org/spritecloud/petstoreapi/objects/pojo/CategoryDetailsList.class
@@ -21,4 +8,3 @@ org/spritecloud/petstoreapi/objects/pojo/TagsDetailsList.class
 org/spritecloud/petstoreapi/objects/resources/TestDataBuild.class
 org/spritecloud/uiplayground/pageobjects/pageobjects/DynamicIdPage.class
 org/spritecloud/petstoreapi/objects/resources/EndPoints.class
->>>>>>> 7406abf707a071f1e33f52ba8ccb8345de9d50b9
