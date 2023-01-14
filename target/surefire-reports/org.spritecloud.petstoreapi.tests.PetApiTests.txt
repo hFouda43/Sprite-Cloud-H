@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.spritecloud.petstoreapi.tests.PetApiTests
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.697 s - in org.spritecloud.petstoreapi.tests.PetApiTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.769 s - in org.spritecloud.petstoreapi.tests.PetApiTests
