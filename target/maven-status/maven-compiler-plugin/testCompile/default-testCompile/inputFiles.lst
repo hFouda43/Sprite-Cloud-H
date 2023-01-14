@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 C:\Users\hendf\OneDrive\Desktop\SpriteCloud\SpriteCloud\src\test\java\uiplayground\testcomponents\Listeners.java
 C:\Users\hendf\OneDrive\Desktop\SpriteCloud\SpriteCloud\src\test\java\org\spritecloud\petstoreapi\tests\PetApiTests.java
 C:\Users\hendf\OneDrive\Desktop\SpriteCloud\SpriteCloud\src\test\java\uiplayground\tests\UiTestingPlaygroundTests.java
 C:\Users\hendf\OneDrive\Desktop\SpriteCloud\SpriteCloud\src\test\java\utilities\Listeners.java
 C:\Users\hendf\OneDrive\Desktop\SpriteCloud\SpriteCloud\src\test\java\org\spritecloud\petstoreapi\testcomponents\Utils.java
 C:\Users\hendf\OneDrive\Desktop\SpriteCloud\SpriteCloud\src\test\java\uiplayground\testcomponents\BaseTest.java
+=======
+/home/runner/work/Sprite-Cloud-H/Sprite-Cloud-H/src/test/java/org/spritecloud/petstoreapi/tests/PetApiTests.java
+/home/runner/work/Sprite-Cloud-H/Sprite-Cloud-H/src/test/java/uiplayground/testcomponents/BaseTest.java
+/home/runner/work/Sprite-Cloud-H/Sprite-Cloud-H/src/test/java/uiplayground/tests/UiTestingPlaygroundTests.java
+/home/runner/work/Sprite-Cloud-H/Sprite-Cloud-H/src/test/java/org/spritecloud/petstoreapi/testcomponents/Utils.java
+/home/runner/work/Sprite-Cloud-H/Sprite-Cloud-H/src/test/java/uiplayground/testcomponents/Listeners.java
+>>>>>>> 7406abf707a071f1e33f52ba8ccb8345de9d50b9

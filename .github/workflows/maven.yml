@@ -35,6 +35,7 @@ jobs:
         
 
     - name: Build with Maven
+      #run:  mvn clean install -X
       run: mvn -B package --file pom.xml
       
     - name: Upload extent report results to Github
