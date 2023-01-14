@@ -52,5 +52,5 @@ jobs:
       run: curl -X POST
            -H "x-api-key:${{ secrets.MY_CALLIOPE_API_KEY }}"
            -H "multipart/form-data"
-           -F "file[]=@target/surefire-reports/TEST-TestSuite.xml"
+           -F "file[]=@target/surefire-reports/testng-results.xml"
            "https://app.calliope.pro/api/v2/profile/${{ secrets.CALLIOPE_PROFILE_ID }}/import"
