@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -16,6 +17,7 @@ import java.util.Properties;
 
 public class BaseTest {
     private WebDriver driver = null;
+    WebDriverWait wait;
 
     @BeforeClass
     public WebDriver initializeDriver() throws IOException {
@@ -32,17 +34,9 @@ public class BaseTest {
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver(options);
                     break;
-                case "firefox":
-                    WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver();
-                    break;
-                case "edge":
-                    WebDriverManager.edgedriver().setup();
-                    driver = new EdgeDriver();
-                    break;
             }
         }
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
         driver.manage().window().maximize();
         return driver;
     }
@@ -60,9 +54,12 @@ public class BaseTest {
     }
 
     public void waitForPageToLoad() {
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
-
+public WebDriverWait waitElement(){
+    wait= new WebDriverWait(driver,Duration.ofSeconds(5));
+    return wait;
+}
     @AfterClass
     public void tearDown() {
         driver.close();
