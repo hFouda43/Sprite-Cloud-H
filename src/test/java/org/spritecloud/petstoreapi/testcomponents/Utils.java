@@ -10,15 +10,22 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 
 public class Utils {
 
     public static RequestSpecification request;
+    private static String FILE_PATH = "testresults/api/logs/APITestsLog_";
+    private static String FILE_EXTENSION = "txt";
+    DateFormat dateFormat = new SimpleDateFormat("yyyyMMddhhmmss");
+    String filename = FILE_PATH + dateFormat.format(new Date()) + "." + FILE_EXTENSION;
 
     public RequestSpecification requestSpecification() throws IOException {
         if (request == null) {
-            PrintStream logFile = new PrintStream(new FileOutputStream("testresults/api/logs/logging.txt"));
+            PrintStream logFile = new PrintStream(new FileOutputStream(filename));
             request = new RequestSpecBuilder().
                     setBaseUri(getGlobalValues("baseUrl")).
                     setContentType(ContentType.JSON).
