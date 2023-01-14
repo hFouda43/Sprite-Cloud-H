@@ -5,7 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -33,6 +35,18 @@ public class BaseTest {
                     options.addArguments("headless");
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver(options);
+                    break;
+                case "firefox":
+                    FirefoxOptions optionsF= new FirefoxOptions();
+                    optionsF.addArguments("headless");
+                    WebDriverManager.firefoxdriver().setup();
+                    driver = new FirefoxDriver();
+                    break;
+                case "edge":
+                    EdgeOptions optoinsE=new EdgeOptions();
+                    optoinsE.addArguments("headless");
+                    WebDriverManager.edgedriver().setup();
+                    driver = new EdgeDriver();
                     break;
             }
         }
@@ -62,6 +76,6 @@ public WebDriverWait waitElement(){
 }
     @AfterClass
     public void tearDown() {
-        driver.close();
+        driver.quit();
     }
 }

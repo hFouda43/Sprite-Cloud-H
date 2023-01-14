@@ -19,7 +19,7 @@ public class OverlappedElementPage {
         PageFactory.initElements(driver, this);
     }
 
-    private @FindBy(css = "div.container:nth-child(1)>div>div:nth-child(1)")
+    private @FindBy(xpath = "//div[@class=\"container\"][1]/div/div[1]")
     WebElement scrollableDiv;
 
     private @FindBy(id = "name")
@@ -27,14 +27,13 @@ public class OverlappedElementPage {
 
     public void setNameFieldValue(String inputText) {
         ((JavascriptExecutor) driver).executeScript(
-                "arguments[0].scrollTop=arguments[1].offsetTop",
-                scrollableDiv,
-                nameField);
+                "arguments[0].scrollIntoView(true);", nameField);
         nameField.sendKeys(inputText);
 
     }
 
     public String getNameFieldValue() {
         return nameField.getAttribute("value");
+
     }
 }
