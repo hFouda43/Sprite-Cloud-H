@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/hendf/OneDrive/Desktop/SpriteCloud/SpriteCloud">
+        <classes>
+            <class name="org.spritecloud.petstoreapi.tests.PetApiTests">
+                <methods>
+                    <include name="addPetTest"/>
+                    <include name="getPetTest"/>
+                    <include name="updatePetTest"/>
+                    <include name="getUpdatedPetTest"/>
+                    <include name="deletePetTest"/>
+                    <include name="deleteDeletedPetTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
