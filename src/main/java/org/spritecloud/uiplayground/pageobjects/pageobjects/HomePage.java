@@ -7,6 +7,14 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
     private WebDriver driver;
+
+    //Defining the constructor
+    public HomePage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+
+    //Defining the web elements of the page
     private @FindBy(linkText = "Dynamic Table")
     WebElement dynamicTableLink;
     private @FindBy(linkText = "Overlapped Element")
@@ -17,12 +25,7 @@ public class HomePage {
     private @FindBy(linkText = "Dynamic ID")
     WebElement dynamicIdLink;
 
-
-    public HomePage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-    }
-
+    //Implementing the required methods
     public void goTo() {
         driver.get("http://www.uitestingplayground.com/");
 

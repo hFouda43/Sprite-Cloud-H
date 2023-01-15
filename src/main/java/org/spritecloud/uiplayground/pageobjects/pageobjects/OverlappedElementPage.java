@@ -14,17 +14,20 @@ import java.time.Duration;
 public class OverlappedElementPage {
     private WebDriver driver;
 
+    //Defining the constructor
     public OverlappedElementPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
+    //Defining the web elements of the page
     private @FindBy(xpath = "//div[@class=\"container\"][1]/div/div[1]")
     WebElement scrollableDiv;
 
     private @FindBy(id = "name")
     WebElement nameField;
 
+    //Implementing the required methods
     public void setNameFieldValue(String inputText) {
         ((JavascriptExecutor) driver).executeScript(
                 "arguments[0].scrollIntoView(true);", nameField);

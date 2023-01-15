@@ -11,6 +11,7 @@ import java.io.IOException;
 public class UiTestingPlaygroundTests extends BaseTest {
     WebDriver driver;
 
+    //Initializing the driver
     {
         try {
             driver = initializeDriver();
@@ -19,6 +20,7 @@ public class UiTestingPlaygroundTests extends BaseTest {
         }
     }
 
+    //Defining the required objects for the tests
     HomePage homePage = new HomePage(driver);
     DynamicTablePage dynamicTablePage = new DynamicTablePage(driver);
     OverlappedElementPage overlappedElementPage = new OverlappedElementPage(driver);
@@ -26,6 +28,7 @@ public class UiTestingPlaygroundTests extends BaseTest {
     DynamicIdPage dynamicIdPage = new DynamicIdPage(driver);
 
 
+    // Testing the dynamic table page
     @Test
     public void dynamicTablePageTest() {
         homePage.goTo();
@@ -35,6 +38,7 @@ public class UiTestingPlaygroundTests extends BaseTest {
         Assert.assertEquals(cpuCellValue, cpuLabelValue);
     }
 
+    //Testing the overlapped Element page
     @Test
     public void overlappedElementPageTest() {
         homePage.goTo();
@@ -44,6 +48,7 @@ public class UiTestingPlaygroundTests extends BaseTest {
         Assert.assertEquals(addedText, "Test");
     }
 
+    //Testing the sample app page
     @Test
     public void sampleAppPageTest() {
         homePage.goTo();
@@ -54,6 +59,7 @@ public class UiTestingPlaygroundTests extends BaseTest {
         Assert.assertTrue(sampleAppPage.getLoginSuccessMessage().contains("Welcome"));
     }
 
+    //Testing the dynamic ID page
     @Test
     public void dynamicIdPageTest() {
         homePage.goTo();

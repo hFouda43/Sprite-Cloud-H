@@ -21,6 +21,7 @@ public class BaseTest {
     private WebDriver driver = null;
     WebDriverWait wait;
 
+    //Initializing the web driver based on the configuration set in the global.prop file
     @BeforeClass
     public WebDriver initializeDriver() throws IOException {
         Properties properties = new Properties();
@@ -37,13 +38,13 @@ public class BaseTest {
                     driver = new ChromeDriver(options);
                     break;
                 case "firefox":
-                    FirefoxOptions optionsF= new FirefoxOptions();
+                    FirefoxOptions optionsF = new FirefoxOptions();
                     optionsF.addArguments("headless");
                     WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver();
                     break;
                 case "edge":
-                    EdgeOptions optoinsE=new EdgeOptions();
+                    EdgeOptions optoinsE = new EdgeOptions();
                     optoinsE.addArguments("headless");
                     WebDriverManager.edgedriver().setup();
                     driver = new EdgeDriver();
@@ -55,25 +56,18 @@ public class BaseTest {
         return driver;
     }
 
-    public void goBackward() {
-        driver.navigate().back();
-    }
-
-    public void goForward() {
-        driver.navigate().forward();
-    }
-
+    // A method used in refreshing the web page
     public void refreshWebPage() {
         driver.navigate().refresh();
     }
 
-    public void waitForPageToLoad() {
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+    // preparing a wait object to be used in explicit waits
+    public WebDriverWait waitElement() {
+        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        return wait;
     }
-public WebDriverWait waitElement(){
-    wait= new WebDriverWait(driver,Duration.ofSeconds(5));
-    return wait;
-}
+
+    // closing the driver instances
     @AfterClass
     public void tearDown() {
         driver.quit();

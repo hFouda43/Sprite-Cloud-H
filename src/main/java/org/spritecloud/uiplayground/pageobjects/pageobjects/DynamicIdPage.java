@@ -7,13 +7,20 @@ import org.openqa.selenium.support.PageFactory;
 
 public class DynamicIdPage {
     private WebDriver driver;
-    private @FindBy(xpath = "//button[@class=\"btn btn-primary\"][@type=\"button\"]")
-    WebElement btnWithDynamicId;
+
+    // Defining the constructor
 
     public DynamicIdPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
+    //Defining the web elements of the page
+    private @FindBy(xpath = "//button[@class=\"btn btn-primary\"][@type=\"button\"]")
+    WebElement btnWithDynamicId;
+
+
+    //Implementing the required methods
 
     public void clickDynamicBtn() {
         btnWithDynamicId.click();

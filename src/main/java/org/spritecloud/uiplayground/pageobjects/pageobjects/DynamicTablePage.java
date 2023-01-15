@@ -10,8 +10,17 @@ import java.util.List;
 
 public class DynamicTablePage {
     private WebDriver driver;
+
+    //Defining the constructor
+    public DynamicTablePage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+
     private int namePos = 0;
     private int cpuPOs = 0;
+
+    //Defining the web elements of the page
     private String cpuValue = null;
     private @FindBy(css = "\"div[role='table']>div:nth-child(3)>div:nth-child(\"+(namePos+i)+\")>span\"")
     WebElement nameValue;
@@ -22,11 +31,7 @@ public class DynamicTablePage {
     private @FindBy(css = "p.bg-warning")
     WebElement cpuLabelValue;
 
-    public DynamicTablePage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-    }
-
+    //Implementing the required methods
     public Double getCpuLoadValue(String processName) {
         for (int i = 0; i < headerCells.size(); i++) {
             if (headerCells.get(i).getText().equalsIgnoreCase("Name")) {

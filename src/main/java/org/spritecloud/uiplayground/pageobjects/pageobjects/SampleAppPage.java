@@ -7,6 +7,14 @@ import org.openqa.selenium.support.PageFactory;
 
 public class SampleAppPage {
     private WebDriver driver;
+
+    // Defining the constructor
+    public SampleAppPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+
+    //Defining the web elements of the page
     private @FindBy(name = "UserName")
     WebElement userName;
     private @FindBy(name = "Password")
@@ -17,11 +25,7 @@ public class SampleAppPage {
     WebElement loginSuccessMessage;
 
 
-    public SampleAppPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-    }
-
+    //Implementing the methods
     public void setUserName(String userNameInput) {
         userName.sendKeys(userNameInput);
     }
