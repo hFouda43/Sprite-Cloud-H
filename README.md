@@ -18,7 +18,7 @@ A list of technologies used within the project:
 ***
 #### Running the tests locally:
 > Prerequisites:
-* Java 11
+* Java 11 (If the machine is using more than one java version, please make sure that the JAVA_HOME is set to the correct JDK, PATH contains the JAVA_HOME and the IDE is using the desired JDK)
 * git
 > Steps to run:
 * Clone the repo
