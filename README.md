@@ -18,7 +18,7 @@ A list of technologies used within the project:
 ***
 #### Running the tests locally:
 > Prerequisites:
-* Java 8 or higher
+* Java 11
 * git
 > Steps to run:
 * Clone the repo
