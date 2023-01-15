@@ -6,7 +6,7 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="C:/Users/hendf/OneDrive/Desktop/SpriteCloud/SpriteCloud">
         <classes>
-            <!--class name="org.spritecloud.petstoreapi.tests.PetApiTests">
+            <class name="org.spritecloud.petstoreapi.tests.PetApiTests">
                 <methods>
                     <include name="addPetTest"/>
                     <include name="getPetTest"/>
@@ -15,7 +15,7 @@
                     <include name="deletePetTest"/>
                     <include name="deleteDeletedPetTest"/>
                 </methods>
-            </class-->
+            </class>
             <class name="uiplayground.tests.UiTestingPlaygroundTests">
                 <methods>
                     <include name="dynamicTablePageTest"/>
