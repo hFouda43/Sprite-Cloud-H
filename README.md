@@ -34,7 +34,7 @@ A list of technologies used within the project:
 ***
 * Calliope Pro results: https://app.calliope.pro/profiles/4636/reports
 * Logs for API tests: https://github.com/hFouda43/Sprite-Cloud-H/tree/master/testresults/api/logs
-* Local Runs Reports: https://github.com/hFouda43/Sprite-Cloud-H/tree/master/testresults/reports
+* HTML Reports: https://github.com/hFouda43/Sprite-Cloud-H/tree/master/testresults/reports
 ## Calliope platform Enhancements and features
 ***
 > Improvement point:
