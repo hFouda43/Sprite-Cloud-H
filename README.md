@@ -51,7 +51,8 @@ A list of technologies used within the project:
 * Heavily used functionalities should also be covered in early stages to guarantee that more likely used functions are free of regressions with new releases
 
 ## Next Steps:
-* More scenarios to be included (covering both positive and negative tests) to increase the maturity level of the application
-* Add more tags to the tests to define different test suites that should run in different project stages (i.e: sanity, smoke, regression,...etc)
-* Implement a method to generate screenshots for UI tests in order to attach it to the generated report
+* More scenarios to be included (covering both positive and negative tests) to increase the maturity level of the application.
+* Add more tags to the tests to define different test suites that should run in different project stages (i.e: sanity, smoke, regression,...etc).
+* Implement a method to generate screenshots for UI tests in order to attach it to the generated report.
+* Read Test data from external Excel files in order to run tests with different data sets using data driven testing.
 
