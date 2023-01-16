@@ -4,9 +4,7 @@ import io.restassured.response.Response;
 import org.spritecloud.petstoreapi.objects.pojo.Pet;
 import org.spritecloud.petstoreapi.objects.requestpreparation.Utils;
 import org.spritecloud.petstoreapi.objects.resources.EndPoints;
-
 import java.io.IOException;
-
 import static io.restassured.RestAssured.given;
 
 //This class is used in sending the requests

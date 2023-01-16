@@ -1,5 +1,5 @@
-uiplayground/testcomponents/BaseTest.class
-org/spritecloud/petstoreapi/tests/PetApiTests.class
-org/spritecloud/petstoreapi/testcomponents/Utils.class
-uiplayground/tests/UiTestingPlaygroundTests.class
-utilities/Listeners.class
+utilities\Listeners.class
+org\spritecloud\petstoreapi\testcomponents\BaseTestApis.class
+org\spritecloud\petstoreapi\tests\PetApiTests.class
+uiplayground\testcomponents\BaseTest.class
+uiplayground\tests\UiTestingPlaygroundTests.class

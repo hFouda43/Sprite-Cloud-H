@@ -30,6 +30,7 @@ public class Utils {
                 addFilter(RequestLoggingFilter.logRequestTo(logFile)).
                 addFilter(ResponseLoggingFilter.logResponseTo(logFile))
                 .build();
+
         return request;
     }
 
